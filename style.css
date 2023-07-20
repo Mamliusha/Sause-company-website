@@ -1,0 +1,273 @@
+header{
+    height: 10vh;
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+#header_logo{
+    width: 130px;
+}
+li,
+button,
+.secondPage_h3,
+.fourthPage_left_h3,
+p{
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-transform: uppercase;
+    word-wrap: break-word ;
+    list-style-type: none;  
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding-top: 5%;
+}
+button{
+    height: 48px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    background-color: #FB4B4D;
+    border: none;
+    color: white;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-content: space-between; 
+    text-align: center;
+}
+body{
+    width: 1397px;
+    padding-left: 21.5px;
+    padding-right: 21.5px;
+}
+
+.firstPage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 989px;
+}
+.firstPage_left,
+.firstPage_right,
+.secondPage,
+.fourthPage,
+footer
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+.firstPage_left_p1{
+    border-bottom:1px solid rgb(0, 0, 0); ;
+}
+.firstPage_left{
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    justify-content: stretch;
+}
+.firstPage_buttom{
+;
+}
+#logo1{
+width: 85%;
+padding-left: 7%;
+}
+#logo2{
+    position: absolute;
+    margin-left: -550px;
+    height: 256px;
+    width: 555px;
+    margin-top: 50px;
+}
+.firstPage_left_p2{
+display: flex;
+flex-direction: row;
+gap: 32px;
+align-content: center;
+padding-top: 20px;
+border-bottom: 1px solid black;
+height: 40%;
+}
+.firstPage_left_p2_p1{
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+line-height: 25.92px;
+letter-spacing: 0.50px;
+word-wrap: break-word;
+}
+#pepper{
+width: 68px;
+justify-self: start;
+align-self: self-start;
+}
+#image2{
+    width: 657px;
+    display: block;
+    margin: 0 auto;
+}
+.firstPage_left_p3{
+    display: grid;
+    justify-content: center;
+    margin-top: -50px;
+    padding: none;
+}
+.firstPage_right{
+    display: grid;
+    grid-template-rows: 1.2fr 2.8fr;
+}
+.firstPage_right_div1{
+    border-bottom: 1px solid black;
+}
+.firstPage_right_div1_p{
+  font-size: 55px;
+ font-family: 'Roboto';
+ font-weight:bold;
+ text-transform: uppercase;
+ word-wrap: break-word;
+ text-align: center;  
+}
+#image3{
+    width: 656px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.secondPage{
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    margin-top: 40px;
+    align-content: stretch;
+    justify-content: space-around;
+}
+.secondPage_start{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: max-content;
+    border-bottom: 1px solid black;
+}
+.secondPage_h3{
+font-size: 45px;
+}
+.secondpage_logo{
+    width: 225px;
+    padding-top: 10%;
+}
+.secondPage_middle{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-content: center;
+align-content: center;
+padding-top: 60px;
+padding-bottom: 30px;
+border-bottom: 1px solid black;
+}
+.page_2{
+background-image: url(./Vector4354.png);
+width: 436px;
+}
+#page_2_logo2{
+    margin-left: -40px;
+}
+.secondPage_end,
+.fifthPage_start{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+align-content: center;
+padding-top: 20px;
+border-bottom: 1px solid black;
+}
+.thirdPage{
+    height: 722px;
+    border: 1px solid black;
+}
+#img6{
+    width: 1354;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.fourthPage{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+.fourthPage_left{
+    display: grid;
+    grid-template-rows: 35% 65%;
+    border-right: 1px solid black;
+    
+}
+.fourthPage_left_h3{
+    font-size: 58px;
+}
+.fourthPage_right{
+    background-image:url(./IMAGE8.svg);
+
+}
+.fourthPahe_right_p{
+    text-align: center;
+    width: 392px;    
+    display: block;
+    margin: auto;
+    padding-top:190px ;
+    gap: 40px;
+    font-size: 16px;
+}
+.fifthPage{
+    background-image: url(./Vector10.png);
+    border: 1px solid black;
+
+}
+.fifthPage_start{
+    gap: 40px;
+    border-bottom: 1px solid black;
+}
+#fifthPage_logo{
+position: absolute;
+display: block;
+margin-top: -600px;
+margin-left: 250px;
+width: 859px;
+}
+#fifthPage_logo2{
+    position: absolute;
+    display: block;
+    margin-top: -550px;
+    margin-left: 270px;  
+    width: 810px;  
+}
+#img9{
+    width: 1310px;
+    padding-left: 30px;
+}
+.fifthPage_middle{
+border-bottom: 1px solid black;
+}
+.background{
+    background-color: #CDFD3B;
+}
+footer{
+    background-color: #CDFD3B;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-content: end;
+}
+/* @media screen and (max-device-width: 480px){
+    body{
+        width: 480px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 5px;
+    }   
+    header{
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+} */
